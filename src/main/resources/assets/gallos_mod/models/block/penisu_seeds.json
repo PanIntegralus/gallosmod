@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "gallos_mod:blocks/penisubloque",
+    "particle": "gallos_mod:blocks/penisubloque"
+  }
+}

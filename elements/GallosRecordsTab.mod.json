@@ -1,0 +1,11 @@
+{
+  "_fv": 13,
+  "_type": "tab",
+  "definition": {
+    "name": "Gallos Records",
+    "icon": {
+      "value": "Blocks.NOTEBLOCK"
+    },
+    "showSearch": true
+  }
+}

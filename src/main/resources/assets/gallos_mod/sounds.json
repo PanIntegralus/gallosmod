@@ -1,0 +1,88 @@
+{
+  "penisu_bunano": {
+    "category": "block",
+    "subtitle": "subtitles.penisu_bunano",
+    "sounds": [
+      {
+        "name": "gallos_mod:penisu",
+        "stream": false
+      }
+    ]
+  },
+  "penisu_tevoyameter": {
+    "category": "block",
+    "subtitle": "subtitles.penisu_tevoyameter",
+    "sounds": [
+      {
+        "name": "gallos_mod:penisu_tevoyameter",
+        "stream": false
+      }
+    ]
+  },
+  "gallos_record_2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "gallos_mod:gallos_record_2",
+        "stream": true
+      }
+    ]
+  },
+  "gallos_record_1": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "gallos_mod:gallos_record_1",
+        "stream": true
+      }
+    ]
+  },
+  "gallos_record_3": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "gallos_mod:gallos_record_3",
+        "stream": true
+      }
+    ]
+  },
+  "gallos_record_4": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "gallos_mod:gallos_record_4",
+        "stream": true
+      }
+    ]
+  },
+  "gold_death": {
+    "category": "neutral",
+    "subtitle": "subtitles.gold_death",
+    "sounds": [
+      {
+        "name": "gallos_mod:gold_death",
+        "stream": false
+      }
+    ]
+  },
+  "gold_hurt": {
+    "category": "neutral",
+    "subtitle": "subtitles.gold_hurt",
+    "sounds": [
+      {
+        "name": "gallos_mod:gold_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "gold_hola": {
+    "category": "neutral",
+    "subtitle": "subtitles.gold_hola",
+    "sounds": [
+      {
+        "name": "gallos_mod:gold_hola",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "gallos_record_3",
+    "name": "Music Disc",
+    "description": "Mr. Douchebag",
+    "creativeTab": {
+      "value": "CUSTOM:GallosRecordsTab"
+    },
+    "music": {
+      "value": "CUSTOM:gallos_record_3"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

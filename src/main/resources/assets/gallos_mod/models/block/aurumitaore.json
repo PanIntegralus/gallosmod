@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gallos_mod:blocks/aurumita_ore",
+    "particle": "gallos_mod:blocks/aurumita_ore"
+  }
+}

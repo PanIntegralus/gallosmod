@@ -1,0 +1,499 @@
+{
+  "id_map": {
+    "ENTITY": 8,
+    "GUI": 2
+  },
+  "mod_elements": [
+    {
+      "name": "GallobossEntityDies",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galloboss_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GallobossNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "galloboss_natural_entity_spawning_condition",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Galloboss",
+      "type": "mob",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      },
+      "registry_name": "galloboss"
+    },
+    {
+      "name": "GallosMod",
+      "type": "tab",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gallos_mod"
+    },
+    {
+      "name": "Aurumitaore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurumitaore"
+    },
+    {
+      "name": "Aurumita",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurumita"
+    },
+    {
+      "name": "AurumitaCraft",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurumita_craft"
+    },
+    {
+      "name": "AurumitaArmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurumita_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Penisu",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penisu"
+    },
+    {
+      "name": "PenisuBlockAdded",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penisu_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PenisuBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penisu_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GallosRecordsTab",
+      "type": "tab",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gallos_records_tab"
+    },
+    {
+      "name": "GallosRecord1",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gallos_record_1"
+    },
+    {
+      "name": "GallosRecord2",
+      "type": "musicdisc",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gallos_record_2"
+    },
+    {
+      "name": "GallosRecord3",
+      "type": "musicdisc",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gallos_record_3"
+    },
+    {
+      "name": "GallosRecord4",
+      "type": "musicdisc",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gallos_record_4"
+    },
+    {
+      "name": "CarlingTable",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carling_table"
+    },
+    {
+      "name": "AurumitaHelmetCraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurumita_helmet_craft"
+    },
+    {
+      "name": "AurumitaChestplateCraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurumita_chestplate_craft"
+    },
+    {
+      "name": "AurumitaLeggingsCraft",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurumita_leggings_craft"
+    },
+    {
+      "name": "AurumitaBootsCraft",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aurumita_boots_craft"
+    },
+    {
+      "name": "GoldAurum",
+      "type": "mob",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5,
+        "1": 6
+      },
+      "registry_name": "gold_aurum"
+    },
+    {
+      "name": "Viktor",
+      "type": "mob",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 7,
+        "1": 8
+      },
+      "registry_name": "viktor"
+    },
+    {
+      "name": "MonsterEnergy",
+      "type": "food",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_energy"
+    },
+    {
+      "name": "Drinks",
+      "type": "tag",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drinks"
+    },
+    {
+      "name": "MonsterEnergyLewisHamilton",
+      "type": "food",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_energy_lewis_hamilton"
+    },
+    {
+      "name": "MonsterEnergyPacificPunch",
+      "type": "food",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_energy_pacific_punch"
+    },
+    {
+      "name": "MonsterEnergyUltraRed",
+      "type": "food",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_energy_ultra_red"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "penisu_bunano",
+      "files": [
+        "penisu"
+      ],
+      "category": "block",
+      "subtitle": "Penisu dice bunano"
+    },
+    {
+      "name": "penisu_tevoyameter",
+      "files": [
+        "penisu_tevoyameter"
+      ],
+      "category": "block",
+      "subtitle": "Penisu te va a meter"
+    },
+    {
+      "name": "gallos_record_2",
+      "files": [
+        "gallos_record_2"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "gallos_record_1",
+      "files": [
+        "gallos_record_1"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "gallos_record_3",
+      "files": [
+        "gallos_record_3"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "gallos_record_4",
+      "files": [
+        "gallos_record_4"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "gold_death",
+      "files": [
+        "gold_death"
+      ],
+      "category": "neutral",
+      "subtitle": "Gold muere"
+    },
+    {
+      "name": "gold_hurt",
+      "files": [
+        "gold_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": "Gold se hace pupa"
+    },
+    {
+      "name": "gold_hola",
+      "files": [
+        "gold_hola"
+      ],
+      "category": "neutral",
+      "subtitle": "Gold saluda"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabgallos_mod": "Gallos Mod",
+      "subtitles.gold_hurt": "Gold se hace pupa",
+      "item.record.gallos_record_2.desc": "Binks No Sake",
+      "entity.galloboss.name": "Galloboss",
+      "item.aurumita_armorbody.name": "Aurumita Body",
+      "entity.gold_aurum.name": "Gold Aurum",
+      "item.gallos_record_2.name": "Music Disc",
+      "entity.viktor.name": "Viktor",
+      "item.monster_energy.name": "Monster Energy",
+      "item.monster_energy_ultra_red.name": "Monster Energy Ultra Red",
+      "item.aurumita_armorlegs.name": "Aurumita Leggings",
+      "subtitles.gold_hola": "Gold saluda",
+      "item.monster_energy_lewis_hamilton.name": "Monster Energy Lewis Hamilton",
+      "item.aurumita_armorhelmet.name": "Aurumita Helmet",
+      "item.gallos_record_3.name": "Music Disc",
+      "item.record.gallos_record_1.desc": "La Pegatina - Tu madre es una cabra",
+      "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
+      "tile.carling_table.name": "Carling Table",
+      "itemGroup.tabgallos_records_tab": "Gallos Records",
+      "item.aurumita_armorboots.name": "Aurumita Boots",
+      "subtitles.penisu_tevoyameter": "Penisu is going to punch ya",
+      "item.gallos_record_1.name": "Music Disc",
+      "subtitles.gallos_record_4": "",
+      "subtitles.gallos_record_2": "",
+      "subtitles.gallos_record_3": "",
+      "subtitles.gallos_record_1": "",
+      "subtitles.penisu_bunano": "Penisu says bunano",
+      "tile.aurumitaore.name": "Aurumita Ore",
+      "item.aurumita.name": "Aurumita",
+      "item.record.gallos_record_3.desc": "Mr. Douchebag",
+      "item.monster_energy_pacific_punch.name": "Monster Energy Pacific Punch",
+      "subtitles.gold_death": "Gold muere",
+      "tile.penisu.name": "Penisu",
+      "item.gallos_record_4.name": "Music Disc"
+    },
+    "es_es": {
+      "subtitles.gold_hurt": "",
+      "itemGroup.tabgallos_mod": "Gallos Mod",
+      "item.record.gallos_record_2.desc": "Binks No Sake",
+      "entity.galloboss.name": "Galloboss",
+      "item.aurumita_armorbody.name": "Pechera de aurumita",
+      "entity.gold_aurum.name": "Gold Aurum",
+      "item.gallos_record_2.name": "Music Disc",
+      "entity.viktor.name": "Viktor",
+      "item.monster_energy.name": "Monster Energy",
+      "item.monster_energy_ultra_red.name": "Monster Energy Pacific Punch",
+      "item.aurumita_armorlegs.name": "Grebas de aurumita",
+      "subtitles.gold_hola": "",
+      "item.monster_energy_lewis_hamilton.name": "Monster Energy",
+      "item.aurumita_armorhelmet.name": "Casco de aurumita",
+      "item.gallos_record_3.name": "Music Disc",
+      "item.record.gallos_record_1.desc": "La Pegatina - Tu madre es una cabra",
+      "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
+      "tile.carling_table.name": "Mesa de Carleos",
+      "itemGroup.tabgallos_records_tab": "Gallos Mod - Records",
+      "item.aurumita_armorboots.name": "Botas de aurumita",
+      "subtitles.penisu_tevoyameter": "Penisu te va a meter",
+      "item.gallos_record_1.name": "Music Disc",
+      "subtitles.gallos_record_4": "",
+      "subtitles.gallos_record_2": "",
+      "subtitles.gallos_record_3": "",
+      "subtitles.gallos_record_1": "",
+      "subtitles.penisu_bunano": "Penisu dice bunano",
+      "tile.aurumitaore.name": "Mena de aurumita",
+      "item.aurumita.name": "Aurumita",
+      "item.record.gallos_record_3.desc": "Mr. Douchebag",
+      "item.monster_energy_pacific_punch.name": "Monster Energy Lewis Hamilton",
+      "subtitles.gold_death": "",
+      "tile.penisu.name": "Penisu",
+      "item.gallos_record_4.name": "Music Disc"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "gallos_mod",
+    "modName": "Gallos Mod",
+    "version": "0.2.1",
+    "description": "#ElGalloManda",
+    "author": "PanIntegrah, Gold_Aurum45",
+    "websiteURL": "http://panintegral.tk",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "grasias a penisu, gold y mi cerebro por apoyarme en este mod. os kiero",
+    "modElementsPackage": "tk.panintegral.gallos_mod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

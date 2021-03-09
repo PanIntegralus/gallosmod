@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "gallos_record_4",
+    "name": "Music Disc",
+    "description": "Musica do debate da band 2014",
+    "creativeTab": {
+      "value": "CUSTOM:GallosRecordsTab"
+    },
+    "music": {
+      "value": "CUSTOM:gallos_record_4"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

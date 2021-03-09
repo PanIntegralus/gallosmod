@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "gallos_record_2",
+    "name": "Music Disc",
+    "description": "Binks No Sake",
+    "creativeTab": {
+      "value": "CUSTOM:GallosRecordsTab"
+    },
+    "music": {
+      "value": "CUSTOM:gallos_record_2"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

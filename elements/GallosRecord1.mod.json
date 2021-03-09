@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "gallos_record_1",
+    "name": "Music Disc",
+    "description": "La Pegatina - Tu madre es una cabra",
+    "creativeTab": {
+      "value": "CUSTOM:GallosRecordsTab"
+    },
+    "music": {
+      "value": "CUSTOM:gallos_record_1"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

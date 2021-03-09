@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gallos_mod:blocks/carling_table_bottom",
+    "up": "gallos_mod:blocks/carling_table_top",
+    "north": "gallos_mod:blocks/carling_table_no",
+    "east": "gallos_mod:blocks/carling_table_si",
+    "south": "gallos_mod:blocks/carling_table_aa",
+    "west": "gallos_mod:blocks/carling_table_vale",
+    "particle": "gallos_mod:blocks/carling_table_bottom"
+  }
+}

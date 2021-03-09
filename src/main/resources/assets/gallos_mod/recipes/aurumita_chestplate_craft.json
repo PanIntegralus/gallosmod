@@ -1,0 +1,39 @@
+{
+  "group": "gallos_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gallos_mod:aurumita"
+    },
+    "2": {
+      "item": "gallos_mod:aurumita"
+    },
+    "3": {
+      "item": "gallos_mod:aurumita"
+    },
+    "4": {
+      "item": "gallos_mod:aurumita"
+    },
+    "5": {
+      "item": "gallos_mod:aurumita"
+    },
+    "6": {
+      "item": "gallos_mod:aurumita"
+    },
+    "7": {
+      "item": "gallos_mod:aurumita"
+    },
+    "8": {
+      "item": "gallos_mod:aurumita"
+    }
+  },
+  "result": {
+    "item": "gallos_mod:aurumita_armorbody",
+    "count": 1
+  }
+}
