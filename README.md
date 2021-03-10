@@ -4,8 +4,6 @@
 ![captura1](https://i.imgur.com/kScPKD7.png)
 _(old screenshot of the mod)_
 
------
-
 ## Downloads
 
 | Version | Supported? |
