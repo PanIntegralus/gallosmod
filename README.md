@@ -4,7 +4,7 @@
 ![captura1](https://i.imgur.com/kScPKD7.png)
 _(old screenshot of the mod)_
 
-## Downloads
+## Downloads ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/PanIntegralus/gallosmod?include_prereleases&label=latest%20version%20available&style=flat-square)
 
 | Version | Supported? |
 | ------- | ---------- |
