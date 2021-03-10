@@ -6,11 +6,20 @@
     "items": [
       {
         "value": "CUSTOM:MonsterEnergy"
+      },
+      {
+        "value": "CUSTOM:MonsterEnergyLewisHamilton"
+      },
+      {
+        "value": "CUSTOM:MonsterEnergyPacificPunch"
+      },
+      {
+        "value": "CUSTOM:MonsterEnergyUltraRed"
       }
     ],
     "blocks": [],
     "functions": [],
-    "name": "drinks",
+    "name": "monster_energy_tag",
     "namespace": "mod"
   }
 }

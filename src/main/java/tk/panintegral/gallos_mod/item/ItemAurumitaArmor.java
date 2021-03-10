@@ -33,7 +33,7 @@ public class ItemAurumitaArmor extends ElementsGallosModMod.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("AURUMITA_ARMOR", "gallos_mod:aurumita_armor__", 25, new int[]{2, 5, 6, 2}, 9,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("AURUMITA_ARMOR", "gallos_mod:aurumita_armor__", 25, new int[]{1, 2, 2, 1}, 9,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("item.armor.equip_gold")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("aurumita_armorhelmet")
 				.setRegistryName("aurumita_armorhelmet").setCreativeTab(TabGallosMod.tab));

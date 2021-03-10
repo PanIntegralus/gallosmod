@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "ENTITY": 8,
+    "ENTITY": 16,
     "GUI": 2
   },
   "mod_elements": [
@@ -291,15 +291,6 @@
       "registry_name": "monster_energy"
     },
     {
-      "name": "Drinks",
-      "type": "tag",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "drinks"
-    },
-    {
       "name": "MonsterEnergyLewisHamilton",
       "type": "food",
       "sortid": 26,
@@ -325,6 +316,57 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "monster_energy_ultra_red"
+    },
+    {
+      "name": "Drinks",
+      "type": "tag",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drinks"
+    },
+    {
+      "name": "DrinksEated",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "drinks_eated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ViktorV2",
+      "type": "mob",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 15,
+        "1": 16
+      },
+      "registry_name": "viktor_v_2"
+    },
+    {
+      "name": "Teclado",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teclado"
     }
   ],
   "variable_elements": [],
@@ -400,6 +442,30 @@
       ],
       "category": "neutral",
       "subtitle": "Gold saluda"
+    },
+    {
+      "name": "vlu_ambient",
+      "files": [
+        "vlu_ambient"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "vlu_hurt",
+      "files": [
+        "vlu_hurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "vlu_death",
+      "files": [
+        "vlu_death"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -408,17 +474,20 @@
       "subtitles.gold_hurt": "Gold se hace pupa",
       "item.record.gallos_record_2.desc": "Binks No Sake",
       "entity.galloboss.name": "Galloboss",
-      "item.aurumita_armorbody.name": "Aurumita Body",
+      "item.aurumita_armorbody.name": "Aurumita Chestplate",
       "entity.gold_aurum.name": "Gold Aurum",
       "item.gallos_record_2.name": "Music Disc",
+      "subtitles.vlu_death": "",
       "entity.viktor.name": "Viktor",
       "item.monster_energy.name": "Monster Energy",
       "item.monster_energy_ultra_red.name": "Monster Energy Ultra Red",
       "item.aurumita_armorlegs.name": "Aurumita Leggings",
       "subtitles.gold_hola": "Gold saluda",
       "item.monster_energy_lewis_hamilton.name": "Monster Energy Lewis Hamilton",
+      "entity.viktor_v_2.name": "Vlu",
       "item.aurumita_armorhelmet.name": "Aurumita Helmet",
       "item.gallos_record_3.name": "Music Disc",
+      "item.teclado.name": "Teclado",
       "item.record.gallos_record_1.desc": "La Pegatina - Tu madre es una cabra",
       "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
       "tile.carling_table.name": "Carling Table",
@@ -431,12 +500,14 @@
       "subtitles.gallos_record_3": "",
       "subtitles.gallos_record_1": "",
       "subtitles.penisu_bunano": "Penisu says bunano",
+      "subtitles.vlu_ambient": "",
       "tile.aurumitaore.name": "Aurumita Ore",
       "item.aurumita.name": "Aurumita",
       "item.record.gallos_record_3.desc": "Mr. Douchebag",
       "item.monster_energy_pacific_punch.name": "Monster Energy Pacific Punch",
       "subtitles.gold_death": "Gold muere",
       "tile.penisu.name": "Penisu",
+      "subtitles.vlu_hurt": "",
       "item.gallos_record_4.name": "Music Disc"
     },
     "es_es": {
@@ -447,14 +518,17 @@
       "item.aurumita_armorbody.name": "Pechera de aurumita",
       "entity.gold_aurum.name": "Gold Aurum",
       "item.gallos_record_2.name": "Music Disc",
+      "subtitles.vlu_death": "",
       "entity.viktor.name": "Viktor",
       "item.monster_energy.name": "Monster Energy",
       "item.monster_energy_ultra_red.name": "Monster Energy Pacific Punch",
       "item.aurumita_armorlegs.name": "Grebas de aurumita",
       "subtitles.gold_hola": "",
       "item.monster_energy_lewis_hamilton.name": "Monster Energy",
+      "entity.viktor_v_2.name": "Viktor V 2",
       "item.aurumita_armorhelmet.name": "Casco de aurumita",
       "item.gallos_record_3.name": "Music Disc",
+      "item.teclado.name": "Teclado",
       "item.record.gallos_record_1.desc": "La Pegatina - Tu madre es una cabra",
       "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
       "tile.carling_table.name": "Mesa de Carleos",
@@ -467,12 +541,14 @@
       "subtitles.gallos_record_3": "",
       "subtitles.gallos_record_1": "",
       "subtitles.penisu_bunano": "Penisu dice bunano",
+      "subtitles.vlu_ambient": "",
       "tile.aurumitaore.name": "Mena de aurumita",
       "item.aurumita.name": "Aurumita",
       "item.record.gallos_record_3.desc": "Mr. Douchebag",
       "item.monster_energy_pacific_punch.name": "Monster Energy Lewis Hamilton",
       "subtitles.gold_death": "",
       "tile.penisu.name": "Penisu",
+      "subtitles.vlu_hurt": "",
       "item.gallos_record_4.name": "Music Disc"
     }
   },

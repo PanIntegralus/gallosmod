@@ -84,5 +84,32 @@
         "stream": false
       }
     ]
+  },
+  "vlu_ambient": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "gallos_mod:vlu_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "vlu_hurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "gallos_mod:vlu_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "vlu_death": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "gallos_mod:vlu_death",
+        "stream": false
+      }
+    ]
   }
 }

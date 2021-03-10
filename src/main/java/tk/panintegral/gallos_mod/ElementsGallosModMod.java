@@ -72,6 +72,11 @@ public class ElementsGallosModMod implements IFuelHandler, IWorldGenerator {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("gallos_mod", "gold_hurt")));
 		sounds.put(new ResourceLocation("gallos_mod", "gold_hola"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("gallos_mod", "gold_hola")));
+		sounds.put(new ResourceLocation("gallos_mod", "vlu_ambient"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("gallos_mod", "vlu_ambient")));
+		sounds.put(new ResourceLocation("gallos_mod", "vlu_hurt"), new net.minecraft.util.SoundEvent(new ResourceLocation("gallos_mod", "vlu_hurt")));
+		sounds.put(new ResourceLocation("gallos_mod", "vlu_death"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("gallos_mod", "vlu_death")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {
