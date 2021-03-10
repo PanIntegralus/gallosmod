@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 16,
-    "GUI": 2
+    "GUI": 2,
+    "ENTITY": 16
   },
   "mod_elements": [
     {
@@ -376,6 +376,35 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "teclado_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldAurumEntityDies",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_aurum_entity_dies",
       "metadata": {
         "dependencies": [
           {

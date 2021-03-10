@@ -50,6 +50,10 @@
 			"rotation": [-180, 90, 0],
 			"translation": [0, 3.25, -1]
 		},
+		"firstperson_righthand": {
+			"rotation": [-11, 84, 0],
+			"translation": [0, 0.25, 0]
+		},
 		"firstperson_lefthand": {
 			"rotation": [-11, 84, 0],
 			"translation": [0, 0.25, 0]
