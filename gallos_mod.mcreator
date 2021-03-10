@@ -434,6 +434,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "shinai"
+    },
+    {
+      "name": "PanMustioFoodEaten",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pan_mustio_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PanMustio",
+      "type": "food",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pan_mustio"
     }
   ],
   "variable_elements": [],
@@ -567,6 +593,7 @@
       "subtitles.teclado_punch": "",
       "item.aurumita_armorhelmet.name": "Aurumita Helmet",
       "item.gallos_record_3.name": "Music Disc",
+      "item.pan_mustio.name": "Musty Bread",
       "item.record.gallos_record_1.desc": "La Pegatina - Tu madre es una cabra",
       "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
       "tile.carling_table.name": "Carling Table",
@@ -612,6 +639,7 @@
       "subtitles.teclado_punch": "",
       "item.aurumita_armorhelmet.name": "Casco de Aurumita",
       "item.gallos_record_3.name": "Music Disc",
+      "item.pan_mustio.name": "Pan mustio",
       "item.record.gallos_record_1.desc": "La Pegatina - Tu madre es una cabra",
       "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
       "tile.carling_table.name": "Mesa de Carleos",
