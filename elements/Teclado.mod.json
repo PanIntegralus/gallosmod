@@ -5,13 +5,13 @@
     "renderType": 1,
     "texture": "placeholder",
     "customModelName": "teclado:default",
-    "name": "Teclado",
+    "name": "Keyboard",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:GallosMod"
     },
     "toolType": "Sword",
-    "harvestLevel": 1,
+    "harvestLevel": 0,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
@@ -21,6 +21,9 @@
     "hasGlow": false,
     "repairItems": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "TecladoLivingEntityIsHitWithTool"
+    }
   }
 }

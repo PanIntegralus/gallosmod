@@ -111,5 +111,22 @@
         "stream": false
       }
     ]
+  },
+  "teclado_punch": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "gallos_mod:teclado_punch1",
+        "stream": false
+      },
+      {
+        "name": "gallos_mod:teclado_punch2",
+        "stream": false
+      },
+      {
+        "name": "gallos_mod:teclado_punch3",
+        "stream": false
+      }
+    ]
   }
 }

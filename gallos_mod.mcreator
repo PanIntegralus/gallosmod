@@ -367,6 +367,35 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "teclado"
+    },
+    {
+      "name": "TecladoLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "teclado_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -466,6 +495,16 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "teclado_punch",
+      "files": [
+        "teclado_punch1",
+        "teclado_punch2",
+        "teclado_punch3"
+      ],
+      "category": "player",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -485,9 +524,10 @@
       "subtitles.gold_hola": "Gold saluda",
       "item.monster_energy_lewis_hamilton.name": "Monster Energy Lewis Hamilton",
       "entity.viktor_v_2.name": "Vlu",
+      "subtitles.teclado_punch": "",
       "item.aurumita_armorhelmet.name": "Aurumita Helmet",
       "item.gallos_record_3.name": "Music Disc",
-      "item.teclado.name": "Teclado",
+      "item.teclado.name": "Keyboard",
       "item.record.gallos_record_1.desc": "La Pegatina - Tu madre es una cabra",
       "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
       "tile.carling_table.name": "Carling Table",
@@ -525,7 +565,8 @@
       "item.aurumita_armorlegs.name": "Grebas de aurumita",
       "subtitles.gold_hola": "",
       "item.monster_energy_lewis_hamilton.name": "Monster Energy",
-      "entity.viktor_v_2.name": "Viktor V 2",
+      "entity.viktor_v_2.name": "Vlu",
+      "subtitles.teclado_punch": "",
       "item.aurumita_armorhelmet.name": "Casco de aurumita",
       "item.gallos_record_3.name": "Music Disc",
       "item.teclado.name": "Teclado",
