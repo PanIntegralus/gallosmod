@@ -11,7 +11,7 @@
 
 -----
 
-[Click here to download the latest release!](https://github.com/panintegralus/gallosmod/releases/)
+[Click here to download the latest release!](https://github.com/PanIntegralus/gallosmod/releases/download/0.3/gallosmod-0.3.jar)
 
 | Version | Supported? |
 | ------- | ---------- |
