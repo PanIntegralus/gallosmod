@@ -23,7 +23,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "TecladoLivingEntityIsHitWithTool"
+      "name": "KeyboardLivingEntityIsHitWithTool"
     }
   }
 }

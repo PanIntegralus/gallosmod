@@ -77,7 +77,7 @@ public class EntityViktorV2 extends ElementsGallosModMod.ModElement {
 	public static class EntityCustom extends EntityMob {
 		public EntityCustom(World world) {
 			super(world);
-			setSize(0.6f, 1.8f);
+			setSize(0.6f, 1.2f);
 			experienceValue = 0;
 			this.isImmuneToFire = false;
 			setNoAI(!true);

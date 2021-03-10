@@ -10,26 +10,26 @@ import net.minecraft.entity.player.EntityPlayer;
 import java.util.Map;
 
 @ElementsGallosModMod.ModElement.Tag
-public class ProcedureTecladoLivingEntityIsHitWithTool extends ElementsGallosModMod.ModElement {
-	public ProcedureTecladoLivingEntityIsHitWithTool(ElementsGallosModMod instance) {
-		super(instance, 32);
+public class ProcedureKeyboardLivingEntityIsHitWithTool extends ElementsGallosModMod.ModElement {
+	public ProcedureKeyboardLivingEntityIsHitWithTool(ElementsGallosModMod instance) {
+		super(instance, 37);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure TecladoLivingEntityIsHitWithTool!");
+			System.err.println("Failed to load dependency x for procedure KeyboardLivingEntityIsHitWithTool!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure TecladoLivingEntityIsHitWithTool!");
+			System.err.println("Failed to load dependency y for procedure KeyboardLivingEntityIsHitWithTool!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure TecladoLivingEntityIsHitWithTool!");
+			System.err.println("Failed to load dependency z for procedure KeyboardLivingEntityIsHitWithTool!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure TecladoLivingEntityIsHitWithTool!");
+			System.err.println("Failed to load dependency world for procedure KeyboardLivingEntityIsHitWithTool!");
 			return;
 		}
 		int x = (int) dependencies.get("x");

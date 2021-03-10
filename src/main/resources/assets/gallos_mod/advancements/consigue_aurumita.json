@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "gallos_mod:aurumita"
+    },
+    "title": {
+      "translate": "advancements.consigue_aurumita.title"
+    },
+    "description": {
+      "translate": "advancements.consigue_aurumita.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "consigue_aurumita": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gallos_mod:aurumita",
+            "count": {
+              "min": 1,
+              "max": 32767
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "minecraft:adventure/root"
+}

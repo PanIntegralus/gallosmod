@@ -1,7 +1,7 @@
 
 package tk.panintegral.gallos_mod.item;
 
-import tk.panintegral.gallos_mod.procedure.ProcedureTecladoLivingEntityIsHitWithTool;
+import tk.panintegral.gallos_mod.procedure.ProcedureKeyboardLivingEntityIsHitWithTool;
 import tk.panintegral.gallos_mod.creativetab.TabGallosMod;
 import tk.panintegral.gallos_mod.ElementsGallosModMod;
 
@@ -29,16 +29,16 @@ import java.util.HashMap;
 import com.google.common.collect.Multimap;
 
 @ElementsGallosModMod.ModElement.Tag
-public class ItemTeclado extends ElementsGallosModMod.ModElement {
-	@GameRegistry.ObjectHolder("gallos_mod:teclado")
+public class ItemKeyboard extends ElementsGallosModMod.ModElement {
+	@GameRegistry.ObjectHolder("gallos_mod:keyboard")
 	public static final Item block = null;
-	public ItemTeclado(ElementsGallosModMod instance) {
-		super(instance, 31);
+	public ItemKeyboard(ElementsGallosModMod instance) {
+		super(instance, 36);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("TECLADO", 0, 368, 4f, 2f, 2)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("KEYBOARD", 0, 368, 4f, 2f, 2)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
@@ -70,16 +70,16 @@ public class ItemTeclado extends ElementsGallosModMod.ModElement {
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					ProcedureTecladoLivingEntityIsHitWithTool.executeProcedure($_dependencies);
+					ProcedureKeyboardLivingEntityIsHitWithTool.executeProcedure($_dependencies);
 				}
 				return true;
 			}
-		}.setUnlocalizedName("teclado").setRegistryName("teclado").setCreativeTab(TabGallosMod.tab));
+		}.setUnlocalizedName("keyboard").setRegistryName("keyboard").setCreativeTab(TabGallosMod.tab));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("gallos_mod:teclado", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("gallos_mod:keyboard", "inventory"));
 	}
 }
