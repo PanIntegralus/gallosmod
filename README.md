@@ -6,17 +6,17 @@ _(old screenshot of the mod)_
 
 -----
 
-[Click here to download the latest release!](https://github.com/PanIntegralus/gallosmod/releases/download/0.3/gallosmod-0.3.jar)
+## Downloads
 
 | Version | Supported? |
 | ------- | ---------- |
-| 1.7.x | ❌ |
-| 1.8.x | ❌ |
-| 1.9.x | ❌ |
-| 1.10.x | ❌ |
-| 1.11.x | ❌ |
-| 1.12.x | ✔ |
-| 1.13.x | ❌ _(planned)_ |
-| 1.14.x | ❌ _(planned)_ |
-| 1.15.x | ❌ _(planned)_ |
-| 1.16.x (snapshots) | ❌ _(planned)_ |
+| 1.7.x | ❌ Not available |
+| 1.8.x | ❌ Not available |
+| 1.9.x | ❌ Not available |
+| 1.10.x | ❌ Not available |
+| 1.11.x | ❌ Not available |
+| 1.12.x | ✔ [Download](https://github.com/PanIntegralus/gallosmod/releases/download/0.3/gallosmod-0.3.jar)|
+| 1.13.x | ❌ Not available |
+| 1.14.x | ❌ Not available |
+| 1.15.x | ❌ Not available |
+| 1.16.x | ❌ Not available |
