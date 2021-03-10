@@ -1,6 +1,7 @@
 
 package tk.panintegral.gallos_mod.entity;
 
+import tk.panintegral.gallos_mod.procedure.ProcedureGoldAurumEntityDies;
 import tk.panintegral.gallos_mod.ElementsGallosModMod;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -15,9 +16,7 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.init.Blocks;
 import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAISwimming;
 import net.minecraft.entity.ai.EntityAIPanic;
@@ -31,7 +30,9 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
 
+import java.util.Map;
 import java.util.Iterator;
+import java.util.HashMap;
 import java.util.ArrayList;
 
 @ElementsGallosModMod.ModElement.Tag
@@ -108,7 +109,7 @@ public class EntityGoldAurum extends ElementsGallosModMod.ModElement {
 
 		@Override
 		protected Item getDropItem() {
-			return new ItemStack(Blocks.DEADBUSH, (int) (1)).getItem();
+			return null;
 		}
 
 		@Override
@@ -129,6 +130,23 @@ public class EntityGoldAurum extends ElementsGallosModMod.ModElement {
 		@Override
 		protected float getSoundVolume() {
 			return 1.0F;
+		}
+
+		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureGoldAurumEntityDies.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override
