@@ -1,4 +1,5 @@
 # Gallos Mod 🐐🐓 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/PanIntegralus/gallosmod?style=flat-square)](https://github.com/PanIntegralus/gallosmod) ![GitHub repo size](https://img.shields.io/github/repo-size/PanIntegralus/gallosmod?style=flat-square)
+[![HitCount](http://hits.dwyl.com/PanIntegralus/gallosmod.svg)](http://hits.dwyl.com/PanIntegralus/gallosmod)
 
 ### The official "El reino de los Gallos" mod
 ![captura1](https://i.imgur.com/kScPKD7.png)
