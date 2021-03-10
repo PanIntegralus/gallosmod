@@ -20,9 +20,8 @@ import net.minecraft.item.Item;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAISwimming;
+import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
 import net.minecraft.entity.ai.EntityAILookIdle;
-import net.minecraft.entity.ai.EntityAIHurtByTarget;
-import net.minecraft.entity.ai.EntityAIAttackMelee;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.EnumCreatureAttribute;
@@ -86,11 +85,10 @@ public class EntityViktorV2 extends ElementsGallosModMod.ModElement {
 		@Override
 		protected void initEntityAI() {
 			super.initEntityAI();
-			this.tasks.addTask(1, new EntityAIAttackMelee(this, 1.2, false));
-			this.tasks.addTask(2, new EntityAIWander(this, 1));
-			this.targetTasks.addTask(3, new EntityAIHurtByTarget(this, false));
-			this.tasks.addTask(4, new EntityAILookIdle(this));
-			this.tasks.addTask(5, new EntityAISwimming(this));
+			this.tasks.addTask(1, new EntityAIWander(this, 1));
+			this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityViktor.EntityCustom.class, true, true));
+			this.tasks.addTask(3, new EntityAILookIdle(this));
+			this.tasks.addTask(4, new EntityAISwimming(this));
 		}
 
 		@Override
