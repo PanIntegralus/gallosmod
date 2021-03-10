@@ -13,7 +13,7 @@ _(old screenshot of the mod)_
 | 1.9.x | ❌ Not available |
 | 1.10.x | ❌ Not available |
 | 1.11.x | ❌ Not available |
-| 1.12.x | ✔ [Download](https://github.com/PanIntegralus/gallosmod/releases/download/0.3/gallosmod-0.3.jar)|
+| 1.12.x | ✔ [Download](https://github.com/PanIntegralus/gallosmod/releases/download/0.3.1/gallosmod-0.3.1.jar)|
 | 1.13.x | ❌ Not available |
 | 1.14.x | ❌ Not available |
 | 1.15.x | ❌ Not available |
