@@ -33,5 +33,5 @@
   "rewards": {
     "experience": 1
   },
-  "parent": "minecraft:adventure/root"
+  "parent": "gallos_mod:gallos_mod_root"
 }
