@@ -51,7 +51,7 @@ public class ItemPanMustio extends ElementsGallosModMod.ModElement {
 
 		@Override
 		public EnumAction getItemUseAction(ItemStack par1ItemStack) {
-			return EnumAction.BOW;
+			return EnumAction.EAT;
 		}
 
 		@Override

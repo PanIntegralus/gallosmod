@@ -20,7 +20,7 @@
     },
     "forDogs": false,
     "isAlwaysEdible": false,
-    "animation": "bow",
+    "animation": "eat",
     "hasGlow": false,
     "onEaten": {
       "name": "PanMustioFoodEaten"
