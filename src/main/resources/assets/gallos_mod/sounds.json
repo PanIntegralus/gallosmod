@@ -1,14 +1,4 @@
 {
-  "penisu_bunano": {
-    "category": "block",
-    "subtitle": "subtitles.penisu_bunano",
-    "sounds": [
-      {
-        "name": "gallos_mod:penisu",
-        "stream": false
-      }
-    ]
-  },
   "penisu_tevoyameter": {
     "category": "block",
     "subtitle": "subtitles.penisu_tevoyameter",
@@ -125,6 +115,16 @@
       },
       {
         "name": "gallos_mod:teclado_punch3",
+        "stream": false
+      }
+    ]
+  },
+  "penisu_bunano": {
+    "category": "block",
+    "subtitle": "subtitles.penisu_bunano",
+    "sounds": [
+      {
+        "name": "gallos_mod:penisu",
         "stream": false
       }
     ]

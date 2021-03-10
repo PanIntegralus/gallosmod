@@ -54,8 +54,6 @@ public class ElementsGallosModMod implements IFuelHandler, IWorldGenerator {
 	public final List<Supplier<Potion>> potions = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ElementsGallosModMod() {
-		sounds.put(new ResourceLocation("gallos_mod", "penisu_bunano"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("gallos_mod", "penisu_bunano")));
 		sounds.put(new ResourceLocation("gallos_mod", "penisu_tevoyameter"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("gallos_mod", "penisu_tevoyameter")));
 		sounds.put(new ResourceLocation("gallos_mod", "gallos_record_2"),
@@ -79,6 +77,8 @@ public class ElementsGallosModMod implements IFuelHandler, IWorldGenerator {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("gallos_mod", "vlu_death")));
 		sounds.put(new ResourceLocation("gallos_mod", "teclado_punch"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("gallos_mod", "teclado_punch")));
+		sounds.put(new ResourceLocation("gallos_mod", "penisu_bunano"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("gallos_mod", "penisu_bunano")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

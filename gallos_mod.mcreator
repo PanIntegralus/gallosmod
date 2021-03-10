@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 16,
-    "GUI": 2
+    "GUI": 2,
+    "ENTITY": 16
   },
   "mod_elements": [
     {
@@ -335,16 +335,7 @@
       "ids": {},
       "registry_name": "drinks_eated",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -429,14 +420,6 @@
   ],
   "variable_elements": [],
   "sound_elements": [
-    {
-      "name": "penisu_bunano",
-      "files": [
-        "penisu"
-      ],
-      "category": "block",
-      "subtitle": "Penisu dice bunano"
-    },
     {
       "name": "penisu_tevoyameter",
       "files": [
@@ -534,6 +517,14 @@
       ],
       "category": "player",
       "subtitle": ""
+    },
+    {
+      "name": "penisu_bunano",
+      "files": [
+        "penisu"
+      ],
+      "category": "block",
+      "subtitle": "Penisu dice bunano"
     }
   ],
   "language_map": {
