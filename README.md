@@ -2,12 +2,7 @@
 
 ### The official "El reino de los Gallos" mod
 ![captura1](https://i.imgur.com/kScPKD7.png)
-
-#### Features:
-- New material: Aurumita
-- New blocks
-- New music discs
-- New mobs
+_(old screenshot of the mod)_
 
 -----
 
