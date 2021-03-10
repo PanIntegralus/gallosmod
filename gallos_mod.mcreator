@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 2,
-    "ENTITY": 16
+    "ENTITY": 16,
+    "GUI": 2
   },
   "mod_elements": [
     {
@@ -625,10 +625,10 @@
   "workspaceSettings": {
     "modid": "gallos_mod",
     "modName": "Gallos Mod",
-    "version": "0.2.1",
+    "version": "0.3",
     "description": "#ElGalloManda",
     "author": "PanIntegrah, Gold_Aurum45",
-    "websiteURL": "http://panintegral.tk",
+    "websiteURL": "http://github.com/PanIntegralus/gallosmod/",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "logo",

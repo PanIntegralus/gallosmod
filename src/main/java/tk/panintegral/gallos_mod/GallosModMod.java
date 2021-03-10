@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = GallosModMod.MODID, version = GallosModMod.VERSION)
 public class GallosModMod {
 	public static final String MODID = "gallos_mod";
-	public static final String VERSION = "0.2.1";
+	public static final String VERSION = "0.3";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("gallos_mod:a");
 	@SidedProxy(clientSide = "tk.panintegral.gallos_mod.ClientProxyGallosModMod", serverSide = "tk.panintegral.gallos_mod.ServerProxyGallosModMod")
 	public static IProxyGallosModMod proxy;
