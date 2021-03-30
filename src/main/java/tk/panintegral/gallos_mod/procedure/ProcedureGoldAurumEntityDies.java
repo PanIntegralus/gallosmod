@@ -38,20 +38,21 @@ public class ProcedureGoldAurumEntityDies extends ElementsGallosModMod.ModElemen
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		for (int index0 = 0; index0 < (int) (((new Random()).nextInt((int) 6 + 1))); index0++) {
-			if (!world.isRemote) {
-				EntityItem entityToSpawn = new EntityItem(world, Math.round(x), Math.round(y), Math.round(z),
-						new ItemStack(Blocks.DEADBUSH, (int) (1)));
-				entityToSpawn.setPickupDelay(10);
-				world.spawnEntity(entityToSpawn);
-			}
-		}
-		if ((((new Random()).nextInt((int) 20 + 1)) == 0)) {
+		if ((((new Random()).nextInt((int) 100 + 1)) < 20)) {
 			if (!world.isRemote) {
 				EntityItem entityToSpawn = new EntityItem(world, Math.round(x), Math.round(y), Math.round(z),
 						new ItemStack(ItemAurumita.block, (int) (1)));
 				entityToSpawn.setPickupDelay(10);
 				world.spawnEntity(entityToSpawn);
+			}
+		} else {
+			for (int index0 = 0; index0 < (int) (((new Random()).nextInt((int) 6 + 1))); index0++) {
+				if (!world.isRemote) {
+					EntityItem entityToSpawn = new EntityItem(world, Math.round(x), Math.round(y), Math.round(z),
+							new ItemStack(Blocks.DEADBUSH, (int) (1)));
+					entityToSpawn.setPickupDelay(10);
+					world.spawnEntity(entityToSpawn);
+				}
 			}
 		}
 	}

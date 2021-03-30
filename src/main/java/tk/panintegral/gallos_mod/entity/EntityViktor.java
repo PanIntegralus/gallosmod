@@ -18,9 +18,10 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.item.Item;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.ai.EntityAIWander;
-import net.minecraft.entity.ai.EntityAISwimming;
 import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
 import net.minecraft.entity.ai.EntityAILookIdle;
+import net.minecraft.entity.ai.EntityAIHurtByTarget;
+import net.minecraft.entity.ai.EntityAIAttackMelee;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.EnumCreatureAttribute;
@@ -84,10 +85,11 @@ public class EntityViktor extends ElementsGallosModMod.ModElement {
 		@Override
 		protected void initEntityAI() {
 			super.initEntityAI();
-			this.tasks.addTask(1, new EntityAIWander(this, 1));
-			this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityViktorV2.EntityCustom.class, true, true));
-			this.tasks.addTask(3, new EntityAILookIdle(this));
-			this.tasks.addTask(4, new EntityAISwimming(this));
+			this.tasks.addTask(1, new EntityAIAttackMelee(this, 1.2, false));
+			this.targetTasks.addTask(2, new EntityAIHurtByTarget(this, true));
+			this.tasks.addTask(3, new EntityAIWander(this, 0.8));
+			this.tasks.addTask(4, new EntityAILookIdle(this));
+			this.targetTasks.addTask(5, new EntityAINearestAttackableTarget(this, EntityViktorV2.EntityCustom.class, false, false));
 		}
 
 		@Override
@@ -118,6 +120,13 @@ public class EntityViktor extends ElementsGallosModMod.ModElement {
 		@Override
 		protected float getSoundVolume() {
 			return 1.0F;
+		}
+
+		@Override
+		public boolean attackEntityFrom(DamageSource source, float amount) {
+			if (source == DamageSource.DROWN)
+				return false;
+			return super.attackEntityFrom(source, amount);
 		}
 
 		@Override

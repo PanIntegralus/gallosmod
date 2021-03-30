@@ -1,6 +1,7 @@
 
 package tk.panintegral.gallos_mod.entity;
 
+import tk.panintegral.gallos_mod.procedure.ProcedureGoldAurumOnInitialEntitySpawn;
 import tk.panintegral.gallos_mod.procedure.ProcedureGoldAurumEntityDies;
 import tk.panintegral.gallos_mod.ElementsGallosModMod;
 
@@ -14,6 +15,7 @@ import net.minecraftforge.fml.client.registry.RenderingRegistry;
 
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
+import net.minecraft.world.DifficultyInstance;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.item.Item;
@@ -23,6 +25,7 @@ import net.minecraft.entity.ai.EntityAIPanic;
 import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAIFollow;
 import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.IEntityLivingData;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.EnumCreatureAttribute;
 import net.minecraft.entity.EntityCreature;
@@ -90,6 +93,7 @@ public class EntityGoldAurum extends ElementsGallosModMod.ModElement {
 			setNoAI(!true);
 			setCustomNameTag("Gold_Aurum45");
 			setAlwaysRenderNameTag(true);
+			enablePersistence();
 		}
 
 		@Override
@@ -105,6 +109,11 @@ public class EntityGoldAurum extends ElementsGallosModMod.ModElement {
 		@Override
 		public EnumCreatureAttribute getCreatureAttribute() {
 			return EnumCreatureAttribute.UNDEFINED;
+		}
+
+		@Override
+		protected boolean canDespawn() {
+			return false;
 		}
 
 		@Override
@@ -147,6 +156,21 @@ public class EntityGoldAurum extends ElementsGallosModMod.ModElement {
 				$_dependencies.put("world", world);
 				ProcedureGoldAurumEntityDies.executeProcedure($_dependencies);
 			}
+		}
+
+		@Override
+		public IEntityLivingData onInitialSpawn(DifficultyInstance difficulty, IEntityLivingData livingdata) {
+			IEntityLivingData retval = super.onInitialSpawn(difficulty, livingdata);
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureGoldAurumOnInitialEntitySpawn.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 
 		@Override

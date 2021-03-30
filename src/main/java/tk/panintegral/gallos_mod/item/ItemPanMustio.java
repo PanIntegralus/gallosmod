@@ -2,6 +2,7 @@
 package tk.panintegral.gallos_mod.item;
 
 import tk.panintegral.gallos_mod.procedure.ProcedurePanMustioFoodEaten;
+import tk.panintegral.gallos_mod.creativetab.TabGallosMod;
 import tk.panintegral.gallos_mod.ElementsGallosModMod;
 
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -16,7 +17,6 @@ import net.minecraft.item.ItemFood;
 import net.minecraft.item.Item;
 import net.minecraft.item.EnumAction;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import java.util.Map;
@@ -45,7 +45,7 @@ public class ItemPanMustio extends ElementsGallosModMod.ModElement {
 			super(1, 0f, false);
 			setUnlocalizedName("pan_mustio");
 			setRegistryName("pan_mustio");
-			setCreativeTab(CreativeTabs.FOOD);
+			setCreativeTab(TabGallosMod.tab);
 			setMaxStackSize(64);
 		}
 
