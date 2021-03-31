@@ -16,70 +16,70 @@ public static class Modelpitusa extends ModelBase {
 	private final ModelRenderer cube_r3;
 
 	public Modelpitusa() {
-		textureWidth = 32;
-		textureHeight = 32;
+		textureWidth = 128;
+		textureHeight = 128;
 
 		BODY = new ModelRenderer(this);
 		BODY.setRotationPoint(0.0F, 24.0F, 0.75F);
 
 		head = new ModelRenderer(this);
-		head.setRotationPoint(-0.0042F, -7.1077F, -3.7963F);
+		head.setRotationPoint(-0.0525F, -19.0873F, -8.8682F);
 		BODY.addChild(head);
-		head.cubeList.add(new ModelBox(head, 8, 15, 0.2032F, -4.4052F, -1.5224F, 1, 2, 1, 0.0F, false));
-		head.cubeList.add(new ModelBox(head, 0, 20, -1.2457F, -4.4052F, -1.5224F, 1, 3, 1, 0.0F, false));
+		head.cubeList.add(new ModelBox(head, 0, 70, 0.5497F, -12.789F, -4.6744F, 3, 8, 3, 0.0F, false));
+		head.cubeList.add(new ModelBox(head, 58, 67, -3.5072F, -12.749F, -4.6744F, 3, 8, 3, 0.0F, false));
 
 		cube_r1 = new ModelRenderer(this);
-		cube_r1.setRotationPoint(-1.7708F, -0.6501F, -1.0797F);
+		cube_r1.setRotationPoint(-4.9175F, -2.6347F, -3.4347F);
 		head.addChild(cube_r1);
 		setRotationAngle(cube_r1, -2.3562F, 0.0F, 0.0F);
-		cube_r1.cubeList.add(new ModelBox(cube_r1, 19, 21, -0.475F, -0.5F, -1.5F, 1, 1, 1, 0.0F, false));
-		cube_r1.cubeList.add(new ModelBox(cube_r1, 13, 22, 3.025F, -0.5F, -1.5F, 1, 1, 1, 0.0F, false));
+		cube_r1.cubeList.add(new ModelBox(cube_r1, 46, 0, -1.53F, -1.6F, -4.2F, 3, 3, 3, 0.0F, false));
+		cube_r1.cubeList.add(new ModelBox(cube_r1, 18, 48, 8.27F, -1.6F, -4.2F, 3, 3, 3, 0.0F, false));
 
 		cube_r2 = new ModelRenderer(this);
-		cube_r2.setRotationPoint(0.0042F, -0.3673F, -0.4787F);
+		cube_r2.setRotationPoint(0.0525F, -1.8427F, -1.7518F);
 		head.addChild(cube_r2);
 		setRotationAngle(cube_r2, 0.7854F, 0.0F, 0.0F);
-		cube_r2.cubeList.add(new ModelBox(cube_r2, 12, 12, -1.25F, -1.625F, -3.975F, 2, 3, 4, 0.0F, false));
+		cube_r2.cubeList.add(new ModelBox(cube_r2, 43, 35, -3.5F, -4.15F, -11.13F, 7, 8, 13, 0.0F, false));
 
 		rightleg = new ModelRenderer(this);
-		rightleg.setRotationPoint(-2.0F, -3.0F, 2.0F);
+		rightleg.setRotationPoint(-5.49F, -8.45F, 7.14F);
 		BODY.addChild(rightleg);
-		rightleg.cubeList.add(new ModelBox(rightleg, 20, 13, -0.9F, 2.0F, -0.9F, 1, 1, 1, 0.0F, false));
-		rightleg.cubeList.add(new ModelBox(rightleg, 18, 0, -1.0F, -0.5F, -1.0F, 2, 3, 2, 0.0F, false));
+		rightleg.cubeList.add(new ModelBox(rightleg, 20, 64, -2.54F, 5.45F, -2.51F, 5, 3, 5, 0.0F, false));
+		rightleg.cubeList.add(new ModelBox(rightleg, 56, 0, -2.96F, -0.95F, -2.99F, 6, 8, 6, 0.0F, false));
 
 		rightarm = new ModelRenderer(this);
-		rightarm.setRotationPoint(-2.0F, -3.125F, -3.0F);
+		rightarm.setRotationPoint(-5.34F, -8.45F, -6.86F);
 		BODY.addChild(rightarm);
-		rightarm.cubeList.add(new ModelBox(rightarm, 6, 18, -1.0F, -0.375F, -1.0F, 2, 3, 2, 0.0F, false));
-		rightarm.cubeList.add(new ModelBox(rightarm, 20, 11, -0.9F, 2.125F, -0.9F, 1, 1, 1, 0.0F, false));
+		rightarm.cubeList.add(new ModelBox(rightarm, 24, 50, -2.96F, -0.95F, -2.99F, 6, 8, 6, 0.0F, false));
+		rightarm.cubeList.add(new ModelBox(rightarm, 63, 59, -2.54F, 5.45F, -2.51F, 5, 3, 5, 0.0F, false));
 
 		leftleg = new ModelRenderer(this);
-		leftleg.setRotationPoint(2.0F, -3.0F, 2.0F);
+		leftleg.setRotationPoint(5.81F, -8.45F, 7.14F);
 		BODY.addChild(leftleg);
-		leftleg.cubeList.add(new ModelBox(leftleg, 16, 6, -1.0F, -0.5F, -1.0F, 2, 3, 2, 0.0F, false));
-		leftleg.cubeList.add(new ModelBox(leftleg, 18, 19, -0.9F, 2.0F, -0.9F, 1, 1, 1, 0.0F, false));
+		leftleg.cubeList.add(new ModelBox(leftleg, 50, 18, -2.96F, -0.95F, -2.99F, 6, 8, 6, 0.0F, false));
+		leftleg.cubeList.add(new ModelBox(leftleg, 0, 62, -2.54F, 5.45F, -2.51F, 5, 3, 5, 0.0F, false));
 
 		leftarm = new ModelRenderer(this);
-		leftarm.setRotationPoint(2.0F, -3.0F, -3.0F);
+		leftarm.setRotationPoint(5.36F, -8.45F, -6.86F);
 		BODY.addChild(leftarm);
-		leftarm.cubeList.add(new ModelBox(leftarm, 0, 15, -1.0F, -0.5F, -1.0F, 2, 3, 2, 0.0F, false));
-		leftarm.cubeList.add(new ModelBox(leftarm, 15, 0, -0.9F, 2.0F, -0.9F, 1, 1, 1, 0.0F, false));
+		leftarm.cubeList.add(new ModelBox(leftarm, 0, 48, -2.96F, -0.95F, -2.99F, 6, 8, 6, 0.0F, false));
+		leftarm.cubeList.add(new ModelBox(leftarm, 48, 56, -2.54F, 5.45F, -2.51F, 5, 3, 5, 0.0F, false));
 
 		torso = new ModelRenderer(this);
-		torso.setRotationPoint(0.0F, -4.9375F, -0.7F);
+		torso.setRotationPoint(0.155F, -13.75F, -0.4F);
 		BODY.addChild(torso);
-		torso.cubeList.add(new ModelBox(torso, 0, 8, -2.95F, -2.3125F, -0.05F, 5, 4, 3, 0.0F, false));
-		torso.cubeList.add(new ModelBox(torso, 0, 0, -3.25F, -2.5625F, -3.55F, 6, 5, 3, 0.0F, false));
+		torso.cubeList.add(new ModelBox(torso, 0, 24, -8.445F, -6.25F, -0.35F, 17, 13, 11, 0.0F, false));
+		torso.cubeList.add(new ModelBox(torso, 0, 0, -9.055F, -7.25F, -10.15F, 18, 14, 10, 0.0F, false));
 
 		cola = new ModelRenderer(this);
-		cola.setRotationPoint(0.0F, -5.3792F, 3.0633F);
+		cola.setRotationPoint(0.1F, -16.4202F, 8.4885F);
 		BODY.addChild(cola);
 
 		cube_r3 = new ModelRenderer(this);
-		cube_r3.setRotationPoint(0.0F, -0.4495F, -0.4495F);
+		cube_r3.setRotationPoint(0.1F, 0.1F, 0.1802F);
 		cola.addChild(cube_r3);
 		setRotationAngle(cube_r3, -0.7854F, 0.0F, 0.0F);
-		cube_r3.cubeList.add(new ModelBox(cube_r3, 14, 19, -0.5F, -0.5F, -0.0643F, 1, 1, 2, 0.0F, false));
+		cube_r3.cubeList.add(new ModelBox(cube_r3, 40, 64, -1.6F, -1.6F, -0.1802F, 3, 3, 6, 0.0F, false));
 	}
 
 	@Override
@@ -98,9 +98,9 @@ public static class Modelpitusa extends ModelBase {
 		this.head.rotateAngleY = f3 / (180F / (float) Math.PI);
 		this.head.rotateAngleX = f4 / (180F / (float) Math.PI);
 		this.rightleg.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
-		this.rightarm.rotateAngleX = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
+		this.rightarm.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
 		this.leftleg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
-		this.leftarm.rotateAngleX = MathHelper.cos(f * 0.6662F) * f1;
-		this.cola.rotateAngleY = f4 / (180F / (float) Math.PI);
+		this.leftarm.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
+		this.cola.rotateAngleY = f2 / 20.f;
 	}
 }
