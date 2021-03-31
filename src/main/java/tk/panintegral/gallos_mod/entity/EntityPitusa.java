@@ -17,14 +17,16 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.item.Item;
-import net.minecraft.entity.passive.EntityCow;
 import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAISwimming;
+import net.minecraft.entity.ai.EntityAIPanic;
 import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAILeapAtTarget;
+import net.minecraft.entity.ai.EntityAIEatGrass;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.EnumCreatureAttribute;
+import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.model.ModelRenderer;
@@ -73,7 +75,7 @@ public class EntityPitusa extends ElementsGallosModMod.ModElement {
 			};
 		});
 	}
-	public static class EntityCustom extends EntityCow {
+	public static class EntityCustom extends EntityCreature {
 		public EntityCustom(World world) {
 			super(world);
 			setSize(1.4f, 0.9f);
@@ -86,9 +88,11 @@ public class EntityPitusa extends ElementsGallosModMod.ModElement {
 		protected void initEntityAI() {
 			super.initEntityAI();
 			this.tasks.addTask(1, new EntityAIWander(this, 1));
-			this.tasks.addTask(2, new EntityAILookIdle(this));
-			this.tasks.addTask(3, new EntityAISwimming(this));
-			this.tasks.addTask(4, new EntityAILeapAtTarget(this, (float) 0.5));
+			this.tasks.addTask(2, new EntityAIPanic(this, 1.2));
+			this.tasks.addTask(3, new EntityAILookIdle(this));
+			this.tasks.addTask(4, new EntityAISwimming(this));
+			this.tasks.addTask(5, new EntityAILeapAtTarget(this, (float) 0.5));
+			this.tasks.addTask(6, new EntityAIEatGrass(this));
 		}
 
 		@Override
