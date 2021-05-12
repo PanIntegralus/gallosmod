@@ -78,7 +78,7 @@ public class EntityPitusa extends ElementsGallosModMod.ModElement {
 	public static class EntityCustom extends EntityCreature {
 		public EntityCustom(World world) {
 			super(world);
-			setSize(1.4f, 0.9f);
+			setSize(0.6f, 1.95f);
 			experienceValue = 0;
 			this.isImmuneToFire = false;
 			setNoAI(!true);
@@ -229,7 +229,7 @@ public class EntityPitusa extends ElementsGallosModMod.ModElement {
 			this.rightarm.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
 			this.leftleg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
 			this.leftarm.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
-			this.cola.rotateAngleY = f2 / 20.f;
+			this.cola.rotateAngleY = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
 		}
 	}
 }

@@ -101,6 +101,6 @@ public static class Modelpitusa extends ModelBase {
 		this.rightarm.rotateAngleX = MathHelper.cos(f * 1.0F) * 1.0F * f1;
 		this.leftleg.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
 		this.leftarm.rotateAngleX = MathHelper.cos(f * 1.0F) * -1.0F * f1;
-		this.cola.rotateAngleY = f2 / 20.f;
+		this.cola.rotateAngleY = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
 	}
 }

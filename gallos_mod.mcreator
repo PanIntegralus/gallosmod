@@ -710,6 +710,10 @@
       "item.gallos_record_4.name": "Music Disc"
     }
   },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
   "workspaceSettings": {
     "modid": "gallos_mod",
     "modName": "Gallos Mod",
@@ -729,5 +733,5 @@
     "modElementsPackage": "tk.panintegral.gallos_mod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000547520
+  "mcreatorVersion": 202100118117
 }
