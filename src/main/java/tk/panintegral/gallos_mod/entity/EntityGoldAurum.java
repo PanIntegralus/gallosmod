@@ -34,9 +34,7 @@ import net.minecraft.client.renderer.entity.RenderBiped;
 import net.minecraft.client.model.ModelBiped;
 
 import java.util.Map;
-import java.util.Iterator;
 import java.util.HashMap;
-import java.util.ArrayList;
 
 @ElementsGallosModMod.ModElement.Tag
 public class EntityGoldAurum extends ElementsGallosModMod.ModElement {
@@ -54,16 +52,8 @@ public class EntityGoldAurum extends ElementsGallosModMod.ModElement {
 
 	@Override
 	public void init(FMLInitializationEvent event) {
-		Biome[] spawnBiomes = allbiomes(Biome.REGISTRY);
-		EntityRegistry.addSpawn(EntityCustom.class, 20, 1, 4, EnumCreatureType.CREATURE, spawnBiomes);
-	}
-
-	private Biome[] allbiomes(net.minecraft.util.registry.RegistryNamespaced<ResourceLocation, Biome> in) {
-		Iterator<Biome> itr = in.iterator();
-		ArrayList<Biome> ls = new ArrayList<Biome>();
-		while (itr.hasNext())
-			ls.add(itr.next());
-		return ls.toArray(new Biome[ls.size()]);
+		Biome[] spawnBiomes = {Biome.REGISTRY.getObject(new ResourceLocation("plains")), Biome.REGISTRY.getObject(new ResourceLocation("forest")),};
+		EntityRegistry.addSpawn(EntityCustom.class, 20, 1, 1, EnumCreatureType.CREATURE, spawnBiomes);
 	}
 
 	@SideOnly(Side.CLIENT)
