@@ -23,7 +23,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "Galloboss",
@@ -35,7 +36,8 @@
         "0": 1,
         "1": 2
       },
-      "registry_name": "galloboss"
+      "registry_name": "galloboss",
+      "path": "~/Mobs"
     },
     {
       "name": "GallosMod",
@@ -44,7 +46,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gallos_mod"
+      "registry_name": "gallos_mod",
+      "path": "~/Tabs"
     },
     {
       "name": "Aurumitaore",
@@ -53,7 +56,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "aurumitaore"
+      "registry_name": "aurumitaore",
+      "path": "~/Blocks"
     },
     {
       "name": "Aurumita",
@@ -62,7 +66,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "aurumita"
+      "registry_name": "aurumita",
+      "path": "~/Items"
     },
     {
       "name": "AurumitaCraft",
@@ -71,7 +76,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "aurumita_craft"
+      "registry_name": "aurumita_craft",
+      "path": "~/Recipes"
     },
     {
       "name": "AurumitaArmor",
@@ -86,7 +92,8 @@
         "el": true,
         "eb": true,
         "ec": true
-      }
+      },
+      "path": "~/Armor"
     },
     {
       "name": "Penisu",
@@ -95,7 +102,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "penisu"
+      "registry_name": "penisu",
+      "path": "~/Blocks"
     },
     {
       "name": "PenisuBlockAdded",
@@ -124,7 +132,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "PenisuBlockDestroyedByPlayer",
@@ -153,7 +162,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "GallosRecordsTab",
@@ -162,7 +172,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gallos_records_tab"
+      "registry_name": "gallos_records_tab",
+      "path": "~/Tabs"
     },
     {
       "name": "GallosRecord1",
@@ -171,7 +182,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gallos_record_1"
+      "registry_name": "gallos_record_1",
+      "path": "~/Gallo Records"
     },
     {
       "name": "GallosRecord2",
@@ -180,7 +192,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gallos_record_2"
+      "registry_name": "gallos_record_2",
+      "path": "~/Gallo Records"
     },
     {
       "name": "GallosRecord3",
@@ -189,7 +202,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gallos_record_3"
+      "registry_name": "gallos_record_3",
+      "path": "~/Gallo Records"
     },
     {
       "name": "GallosRecord4",
@@ -198,7 +212,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gallos_record_4"
+      "registry_name": "gallos_record_4",
+      "path": "~/Gallo Records"
     },
     {
       "name": "CarlingTable",
@@ -207,7 +222,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "carling_table"
+      "registry_name": "carling_table",
+      "path": "~/Blocks"
     },
     {
       "name": "AurumitaHelmetCraft",
@@ -216,7 +232,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "aurumita_helmet_craft"
+      "registry_name": "aurumita_helmet_craft",
+      "path": "~/Recipes"
     },
     {
       "name": "AurumitaChestplateCraft",
@@ -225,7 +242,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "aurumita_chestplate_craft"
+      "registry_name": "aurumita_chestplate_craft",
+      "path": "~/Recipes"
     },
     {
       "name": "AurumitaLeggingsCraft",
@@ -234,7 +252,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "aurumita_leggings_craft"
+      "registry_name": "aurumita_leggings_craft",
+      "path": "~/Recipes"
     },
     {
       "name": "AurumitaBootsCraft",
@@ -243,7 +262,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "aurumita_boots_craft"
+      "registry_name": "aurumita_boots_craft",
+      "path": "~/Recipes"
     },
     {
       "name": "GoldAurum",
@@ -255,7 +275,8 @@
         "0": 5,
         "1": 6
       },
-      "registry_name": "gold_aurum"
+      "registry_name": "gold_aurum",
+      "path": "~/Mobs"
     },
     {
       "name": "Viktor",
@@ -267,7 +288,8 @@
         "0": 7,
         "1": 8
       },
-      "registry_name": "viktor"
+      "registry_name": "viktor",
+      "path": "~/Mobs"
     },
     {
       "name": "MonsterEnergy",
@@ -276,7 +298,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "monster_energy"
+      "registry_name": "monster_energy",
+      "path": "~/MonsterEnergy"
     },
     {
       "name": "MonsterEnergyLewisHamilton",
@@ -285,7 +308,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "monster_energy_lewis_hamilton"
+      "registry_name": "monster_energy_lewis_hamilton",
+      "path": "~/MonsterEnergy"
     },
     {
       "name": "MonsterEnergyPacificPunch",
@@ -294,7 +318,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "monster_energy_pacific_punch"
+      "registry_name": "monster_energy_pacific_punch",
+      "path": "~/MonsterEnergy"
     },
     {
       "name": "MonsterEnergyUltraRed",
@@ -303,7 +328,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "monster_energy_ultra_red"
+      "registry_name": "monster_energy_ultra_red",
+      "path": "~/MonsterEnergy"
     },
     {
       "name": "Drinks",
@@ -324,7 +350,8 @@
       "registry_name": "drinks_eated",
       "metadata": {
         "dependencies": []
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "ViktorV2",
@@ -336,7 +363,8 @@
         "0": 15,
         "1": 16
       },
-      "registry_name": "viktor_v_2"
+      "registry_name": "viktor_v_2",
+      "path": "~/Mobs"
     },
     {
       "name": "GoldAurumEntityDies",
@@ -365,7 +393,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "ConsigueAurumita",
@@ -374,7 +403,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "consigue_aurumita"
+      "registry_name": "consigue_aurumita",
+      "path": "~/Achievements"
     },
     {
       "name": "Keyboard",
@@ -383,7 +413,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "keyboard"
+      "registry_name": "keyboard",
+      "path": "~/Tools"
     },
     {
       "name": "KeyboardLivingEntityIsHitWithTool",
@@ -412,7 +443,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "Shinai",
@@ -421,7 +453,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "shinai"
+      "registry_name": "shinai",
+      "path": "~/Tools"
     },
     {
       "name": "PanMustioFoodEaten",
@@ -438,7 +471,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "PanMustio",
@@ -447,7 +481,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pan_mustio"
+      "registry_name": "pan_mustio",
+      "path": "~/Items"
     },
     {
       "name": "PanMustioAdvancement",
@@ -456,7 +491,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pan_mustio_advancement"
+      "registry_name": "pan_mustio_advancement",
+      "path": "~/Achievements"
     },
     {
       "name": "GallosModRoot",
@@ -465,7 +501,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gallos_mod_root"
+      "registry_name": "gallos_mod_root",
+      "path": "~/Achievements"
     },
     {
       "name": "GoldAurumOnInitialEntitySpawn",
@@ -482,7 +519,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "Pitusa",
@@ -494,7 +532,8 @@
         "0": 17,
         "1": 18
       },
-      "registry_name": "pitusa"
+      "registry_name": "pitusa",
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -615,13 +654,13 @@
       "entity.viktor.name": "Viktor",
       "item.monster_energy.name": "Monster Energy",
       "item.monster_energy_ultra_red.name": "Monster Energy Ultra Red",
-      "entity.viktor_v_2.name": "Vlu",
-      "item.monster_energy_lewis_hamilton.name": "Monster Energy Lewis Hamilton",
       "subtitles.gold_hola": "Gold saluda",
-      "item.gallos_record_3.name": "Music Disc",
+      "item.monster_energy_lewis_hamilton.name": "Monster Energy Lewis Hamilton",
+      "entity.viktor_v_2.name": "Vlu",
       "item.pan_mustio.name": "Musty Bread",
-      "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
+      "item.gallos_record_3.name": "Music Disc",
       "advancements.gallos_mod_root.descr": "victorber seeks you...",
+      "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
       "subtitles.penisu_tevoyameter": "Penisu is going to punch ya",
       "item.record.gallos_record_3.desc": "Mr. Douchebag",
       "tile.penisu.name": "Penisu",
@@ -666,13 +705,13 @@
       "entity.viktor.name": "Viktor",
       "item.monster_energy.name": "Monster Energy",
       "item.monster_energy_ultra_red.name": "Monster Energy Pacific Punch",
-      "entity.viktor_v_2.name": "Vlu",
-      "item.monster_energy_lewis_hamilton.name": "Monster Energy",
       "subtitles.gold_hola": "",
-      "item.gallos_record_3.name": "Music Disc",
+      "item.monster_energy_lewis_hamilton.name": "Monster Energy",
+      "entity.viktor_v_2.name": "Vlu",
       "item.pan_mustio.name": "Pan mustio",
-      "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
+      "item.gallos_record_3.name": "Music Disc",
       "advancements.gallos_mod_root.descr": "victorber te busca...",
+      "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
       "subtitles.penisu_tevoyameter": "Penisu te va a meter",
       "item.record.gallos_record_3.desc": "Mr. Douchebag",
       "tile.penisu.name": "Penisu",
@@ -712,7 +751,52 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "MonsterEnergy",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Gallo Records",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Tabs",
+        "children": []
+      },
+      {
+        "name": "Achievements",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "gallos_mod",
