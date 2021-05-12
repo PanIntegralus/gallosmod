@@ -299,7 +299,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "monster_energy",
-      "path": "~/MonsterEnergy"
+      "path": "~/Items/MonsterEnergy"
     },
     {
       "name": "MonsterEnergyLewisHamilton",
@@ -309,7 +309,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "monster_energy_lewis_hamilton",
-      "path": "~/MonsterEnergy"
+      "path": "~/Items/MonsterEnergy"
     },
     {
       "name": "MonsterEnergyPacificPunch",
@@ -319,7 +319,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "monster_energy_pacific_punch",
-      "path": "~/MonsterEnergy"
+      "path": "~/Items/MonsterEnergy"
     },
     {
       "name": "MonsterEnergyUltraRed",
@@ -329,7 +329,7 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "monster_energy_ultra_red",
-      "path": "~/MonsterEnergy"
+      "path": "~/Items/MonsterEnergy"
     },
     {
       "name": "Drinks",
@@ -534,6 +534,16 @@
       },
       "registry_name": "pitusa",
       "path": "~/Mobs"
+    },
+    {
+      "name": "LecheDeCabra",
+      "type": "food",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leche_de_cabra",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -677,6 +687,7 @@
       "subtitles.teclado_punch": "",
       "item.aurumita_armorhelmet.name": "Aurumita Helmet",
       "advancements.pan_mustio_advancement.descr": "Eat Musty Bread.",
+      "item.leche_de_cabra.name": "Goat Milk",
       "tile.carling_table.name": "Carling Table",
       "item.record.gallos_record_1.desc": "La Pegatina - Tu madre es una cabra",
       "itemGroup.tabgallos_records_tab": "Gallos Records",
@@ -705,13 +716,13 @@
       "entity.viktor.name": "Viktor",
       "item.monster_energy.name": "Monster Energy",
       "item.monster_energy_ultra_red.name": "Monster Energy Pacific Punch",
-      "entity.viktor_v_2.name": "Vlu",
-      "item.monster_energy_lewis_hamilton.name": "Monster Energy",
       "subtitles.gold_hola": "",
-      "item.gallos_record_3.name": "Music Disc",
+      "item.monster_energy_lewis_hamilton.name": "Monster Energy",
+      "entity.viktor_v_2.name": "Vlu",
       "item.pan_mustio.name": "Pan mustio",
-      "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
+      "item.gallos_record_3.name": "Music Disc",
       "advancements.gallos_mod_root.descr": "victorber te busca...",
+      "item.record.gallos_record_4.desc": "Musica do debate da band 2014",
       "subtitles.penisu_tevoyameter": "Penisu te va a meter",
       "item.record.gallos_record_3.desc": "Mr. Douchebag",
       "tile.penisu.name": "Penisu",
@@ -728,6 +739,7 @@
       "subtitles.teclado_punch": "",
       "item.aurumita_armorhelmet.name": "Casco de Aurumita",
       "advancements.pan_mustio_advancement.descr": "Come pan mustio.",
+      "item.leche_de_cabra.name": "Leche de cabra",
       "tile.carling_table.name": "Mesa de Carleos",
       "item.record.gallos_record_1.desc": "La Pegatina - Tu madre es una cabra",
       "itemGroup.tabgallos_records_tab": "Gallos Mod - Records",
@@ -753,16 +765,17 @@
     "name": "~",
     "children": [
       {
-        "name": "MonsterEnergy",
-        "children": []
-      },
-      {
         "name": "Mobs",
         "children": []
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "MonsterEnergy",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Gallo Records",
