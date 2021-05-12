@@ -1,0 +1,6 @@
+{
+  "parent": "gallos_mod:custom/teclado",
+  "textures": {
+    "0": "gallos_mod:blocks/teclado"
+  }
+}
