@@ -1,4 +1,4 @@
-item.keyboard.name=Keyboard
+item.keyboard.name=Teclado
 entity.galloboss.name=Galloboss
 item.gallos_record_2.name=Music Disc
 advancements.gallos_mod_root.title=Gallos Mod
@@ -17,8 +17,9 @@ item.record.gallos_record_3.desc=Mr. Douchebag
 tile.penisu.name=Penisu
 subtitles.vlu_hurt=
 item.shinai.name=Shinai
-subtitles.gold_hurt=
+subtitles.gold_hurt=Gold se hace pupa
 itemGroup.tabgallos_mod=Gallos Mod
+item.queso_de_bola.name=Queso de bola
 item.record.gallos_record_2.desc=Binks No Sake
 advancements.consigue_aurumita.title=¡Goldtástico!
 item.aurumita_armorbody.name=Pechera de Aurumita
