@@ -59,7 +59,7 @@ public class EntityPitusa extends ElementsGallosModMod.ModElement {
 	@Override
 	public void init(FMLInitializationEvent event) {
 		Biome[] spawnBiomes = allbiomes(Biome.REGISTRY);
-		EntityRegistry.addSpawn(EntityCustom.class, 20, 4, 4, EnumCreatureType.MONSTER, spawnBiomes);
+		EntityRegistry.addSpawn(EntityCustom.class, 5, 4, 4, EnumCreatureType.MONSTER, spawnBiomes);
 	}
 
 	private Biome[] allbiomes(net.minecraft.util.registry.RegistryNamespaced<ResourceLocation, Biome> in) {

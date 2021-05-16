@@ -114,7 +114,7 @@
     "rangedItemType": "Default item",
     "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningProbability": 1,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,

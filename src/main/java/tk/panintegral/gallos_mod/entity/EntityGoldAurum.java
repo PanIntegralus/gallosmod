@@ -53,7 +53,7 @@ public class EntityGoldAurum extends ElementsGallosModMod.ModElement {
 	@Override
 	public void init(FMLInitializationEvent event) {
 		Biome[] spawnBiomes = {Biome.REGISTRY.getObject(new ResourceLocation("plains")), Biome.REGISTRY.getObject(new ResourceLocation("forest")),};
-		EntityRegistry.addSpawn(EntityCustom.class, 20, 1, 1, EnumCreatureType.CREATURE, spawnBiomes);
+		EntityRegistry.addSpawn(EntityCustom.class, 10, 1, 1, EnumCreatureType.CREATURE, spawnBiomes);
 	}
 
 	@SideOnly(Side.CLIENT)
