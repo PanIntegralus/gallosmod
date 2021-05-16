@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "gallos_mod:rodrigo_cagando_portal_ew"
+    },
+    "axis=x": {
+      "model": "gallos_mod:rodrigo_cagando_portal_ns"
+    },
+    "inventory": {
+      "model": "gallos_mod:rodrigo_cagando_portal_ns"
+    }
+  }
+}

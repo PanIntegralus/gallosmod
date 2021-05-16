@@ -1,0 +1,42 @@
+{
+  "_fv": 18,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "ocean"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.COAL_BLOCK"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Penisu"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:CarlingTable"
+    },
+    "portalParticles": {
+      "value": "TOTEM"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "?",
+    "igniterTab": {
+      "value": "CUSTOM:GallosMod"
+    },
+    "texture": "placeholder",
+    "portalTexture": "penisubloque",
+    "enablePortal": true
+  }
+}
